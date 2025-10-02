@@ -1,4 +1,4 @@
-class FlamesCalculator:
+class TheMatchingGame:
 
     def __init__(self, outcomes=None):
         if outcomes is None:
@@ -52,12 +52,14 @@ class FlamesCalculator:
             print("Not compatible! Single forever </3")
 
     def run(self):
-  
+
         self.get_names()
         self.calculate()
         self.display_result()
 
+
 if __name__ == "__main__":
-    flames_game = FlamesCalc()
+    flames_game = TheMatchingGame()
 
     flames_game.run()
+
