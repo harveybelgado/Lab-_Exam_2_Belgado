@@ -52,13 +52,12 @@ class FlamesCalculator:
             print("Not compatible! Single forever </3")
 
     def run(self):
-        """
-        Runs the full FLAMES calculation sequence.
-        """
+  
         self.get_names()
         self.calculate()
         self.display_result()
 
 if __name__ == "__main__":
-    flames_game = FlamesCalculator()
+    flames_game = FlamesCalc()
+
     flames_game.run()
