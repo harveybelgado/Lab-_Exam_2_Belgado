@@ -91,4 +91,5 @@ class GradeEvaluator:
 
 if __name__ == "__main__":
     evaluator = GradeEvaluator()
+
     evaluator.run_evaluation()
