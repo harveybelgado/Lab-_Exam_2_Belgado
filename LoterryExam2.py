@@ -1,5 +1,4 @@
 import random
-
 class LotteryGame:
     def __init__(self, name="Baste & Etsab Corporation 6/60 Lottery", min_num=1, max_num=60, draw_size=6):
 
@@ -65,4 +64,5 @@ class LotteryGame:
 
 if __name__ == "__main__":
     game = LotteryGame()
+
     game.play()
